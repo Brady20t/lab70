@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Load the dataset
-df = pd.read_excel("data/AmesHousing.xlsx")
+df = pd.read_excel("AmesHousing.xlsx")
 
 # Select relevant features (customize as needed)
 features = ["LotArea", "YearBuilt", "OverallQual", "GarageCars", "TotalBsmtSF", "GrLivArea"]
